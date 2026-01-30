@@ -8,7 +8,7 @@
 
 @layer components {
 	.btn {
-		@apply cursor-pointer items-center justify-center rounded-md border bg-black text-center text-white transition hover:border-white hover:bg-[rgb(30,30,30)] focus:bg-white focus:text-black;
+		@apply cursor-pointer items-center justify-center rounded-xl border bg-black text-center text-white transition hover:border-white hover:bg-[rgb(30,30,30)] focus:bg-white focus:text-black;
 	}
 	.noAntiAlias {
 		image-rendering: pixelated;
