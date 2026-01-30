@@ -1,1 +1,35 @@
 @import 'tailwindcss';
+
+@layer base {
+	body {
+		@apply items-center bg-black bg-[url('$lib/assets/imgs/deltaruneFountain.gif')] bg-no-repeat select-none;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply cursor-pointer items-center justify-center rounded-md border bg-black text-center text-white transition hover:border-white hover:bg-[rgb(30,30,30)] focus:bg-white focus:text-black;
+	}
+	.noAntiAlias {
+		image-rendering: pixelated;
+	}
+	.splashText {
+		@apply text-yellow-200;
+		rotate: -5deg;
+		animation: splashTextAnimation 3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+	}
+}
+
+@keyframes splashTextAnimation {
+	0% {
+		scale: 1;
+	}
+	50% {
+		scale: 1.2;
+	}
+}
+
+@font-face {
+	font-family: 'Terminus';
+	src: url('$lib/assets/fonts/terminus.ttf');
+}
