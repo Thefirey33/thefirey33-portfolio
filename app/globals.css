@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --border-color: var(--color-purple-600);
+  --theme-color: var(--color-black);
+}
+
+@layer components {
+  .btn {
+    @apply select-none transition-all p-3 text-xl h-fit min-w-20 bg-black border-4 border-(--border-color) text-white hover:bg-(--border-color) hover:text-black cursor-pointer;
+  }
+}
