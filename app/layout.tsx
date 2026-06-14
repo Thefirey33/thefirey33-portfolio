@@ -6,6 +6,7 @@ import { MobileProvider } from "./mobile-context";
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import NextTopLoader from "nextjs-toploader";
+import React from "react";
 
 const websiteFont = localFont({
   src: "./assets/font/Terminus (TTF) 500.ttf",

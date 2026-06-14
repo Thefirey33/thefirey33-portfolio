@@ -7,6 +7,9 @@
 
 @layer components {
   .btn {
-    @apply select-none transition-all p-3 text-xl h-fit min-w-20 bg-black border-4 border-(--border-color) text-white hover:bg-(--border-color) hover:text-black cursor-pointer;
+    @apply select-none transition-all p-3 md:text-xl text-xs h-fit min-w-20 bg-black border-4 border-(--border-color) text-white hover:bg-(--border-color) active:bg-(--border-color) active:text-black hover:text-black cursor-pointer;
   }
 }
+
+::view-transition-group(background-transition) { z-index: 1; }
+::view-transition-group(top-bar) { z-index: 30; }

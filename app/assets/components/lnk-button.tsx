@@ -10,10 +10,10 @@ export const LinkButton = ({ href, icon, children }: { href: Url, icon?: StaticI
     const isPathNameEqual = usePathname() === href;
 
     return (
-        <Link className={`btn gap-4 ${isPathNameEqual ? 'bg-(--border-color) text-black' : ''} group text-center flex flex-row justify-center items-center justify-center`} href={href}>
+        <Link className={`btn gap-4 ${isPathNameEqual && 'bg-(--border-color) text-black'} group text-center flex flex-row justify-center items-center`} href={href}>
             {
                 icon &&
-                <Image src={icon} width={20} height={20} className={`group-hover:invert ${isPathNameEqual ? 'invert' : ''} transition`} alt="Icon" />
+                <Image src={icon} width={20} height={20} className={`group-hover:invert ${isPathNameEqual && 'invert'} transition`} alt="Icon" />
             }
             {children}
         </Link>
