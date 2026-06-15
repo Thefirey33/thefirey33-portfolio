@@ -34,7 +34,7 @@ export default function LorePage() {
                     <Link className="btn not-xl:w-full text-center" href={"https://bsky.app/profile/nikosolar.bsky.social"}>BlueSky</Link>
                 </p>
 
-                <div className="xl:h-160 h-95 overflow-x-hidden w-full block overflow-scroll p-4 scrollbar-thumb-(--border-color) border-4 border-(--border-color) m-5 bg-black">
+                <div className="xl:h-160 h-120 overflow-x-hidden w-screen block overflow-scroll p-4 scrollbar-thumb-(--border-color) border-4 border-(--border-color) m-5 bg-black">
                     {loreContent.split("\n").map((entry, indx) => {
                         return <p key={indx}>{entry}</p>
                     })}
