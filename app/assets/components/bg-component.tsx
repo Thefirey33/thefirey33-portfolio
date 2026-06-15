@@ -6,17 +6,19 @@ export const BackgroundComponent = ({ Background }: { Background: StaticImageDat
 
 
     return (
-        <Image
-            src={Background}
-            alt="Background"
-            className="w-screen h-screen left-0 top-0 -z-20 fixed object-cover select-none"
-
-            style=
-            {
+        <>
+            <Image
+                src={Background}
+                alt="Background"
+                className="min-w-screen min-h-screen left-0 top-0 -z-20 fixed object-cover select-none"
+                loading="eager"
+                style=
                 {
-                    imageRendering: 'pixelated'
+                    {
+                        imageRendering: 'pixelated'
+                    }
                 }
-            }
-        />
+            />
+        </>
     );
 }

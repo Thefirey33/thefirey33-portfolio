@@ -22,7 +22,7 @@ function Logo() {
 
     const isRootPath = usePathname() === '/';
     // The amount of times you have to click on the button before the easter egg appears.
-    const easterEggMaxCount = 1000;
+    const easterEggMaxCount = 300;
     // Easter Egg Count. Before the easterEggMaxCount is reached, this counts up.
     const [easterEggCount, setEasterEggCount] = useState(0);
 
@@ -79,9 +79,9 @@ function TopBarLinks({ isMobileMode, setIsOpen, isOpen }: {
         }
 
         <LinkButton href={"/about"} icon={AboutIcon}>About</LinkButton>
-        <LinkButton href={"/coding"} icon={CodingIcon}>Programming</LinkButton>
-        <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
         <LinkButton href={"/socials"} icon={SocialsIcon}>Socials</LinkButton>
+        <LinkButton href={"/coding"} icon={CodingIcon}>Programming/Projects</LinkButton>
+        <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
         <LinkButton href={"/art"} icon={ArtIcon}>Thefirey33 Art</LinkButton>
         <LinkButton href={"/games"} icon={GamesIcon}>Games!</LinkButton>
     </>
@@ -131,7 +131,7 @@ export const NavBar = () => {
                                 <Logo />
                             </div>
                             <div
-                                className={`fixed ${isOpen ? "translate-x-0" : "-translate-x-full"} left-0 transition-all bg-black min-w-50 flex flex-col gap-2 p-5 h-full top-0 border-r-3 border-(--border-color)`}>
+                                className={`fixed ${isOpen ? "translate-x-0" : "-translate-x-full"} left-0 transition-all bg-black min-w-50 flex flex-col gap-2 p-5 h-full z-20 top-0 border-r-3 border-(--border-color)`}>
                                 <TopBarLinks isMobileMode={isMobile} setIsOpen={setIsOpen} isOpen={isOpen} />
                             </div>
                         </>
