@@ -9,15 +9,15 @@ export default function ProgrammingPage() {
         <>
             <BackgroundComponent Background={WorldMachineWallpaper} />
 
-            <div className="bg-black lg:w-200 w-80 text-white text-xl flex flex-col gap-2 min-h-20 p-5 border-4 border-(--border-color) m-auto text-center">
+            <div className="bg-black xl:w-200 w-80 text-white text-xl flex flex-col gap-2 min-h-20 p-5 border-4 border-(--border-color) m-auto text-center">
                 <TitlebarDisplay>Programming!</TitlebarDisplay>
 
-                <p>
+                <p className="md:text-xl text-xs">
                     I&apos;ve been programming for a very long time. It&apos;s one of my
                     favorite activities to do!
                 </p>
 
-                <p>Here&apos;s a list of software, languages I use:</p>
+                <p className="md:text-xl text-xs">Here&apos;s a list of software, languages I use:</p>
                 <CodeGrid />
                 <p>Checkout all my projects on GitHub and itch.io!</p>
             </div>

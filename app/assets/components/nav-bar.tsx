@@ -16,7 +16,7 @@ import ArtIcon from "../img/icon/art.png";
 import GamesIcon from "../img/icon/games.png";
 import LoreIcon from "../img/icon/lore.png";
 
-import { MaxWidth } from "../config";
+import { MaxWidth } from "../helper";
 
 function Logo() {
 
@@ -83,7 +83,7 @@ function TopBarLinks({ isMobileMode, setIsOpen, isOpen }: {
         <LinkButton href={"/coding"} icon={CodingIcon}>Programming/Projects</LinkButton>
         <LinkButton href={"/art"} icon={ArtIcon}>Thefirey33 Art</LinkButton>
         <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
-        <LinkButton href={"/games"} icon={GamesIcon}>Games!</LinkButton>
+        <LinkButton href={"/games"} icon={GamesIcon} enabled={false}>Games! (Soon)</LinkButton>
     </>
 }
 

@@ -32,7 +32,7 @@ export default function GlobalNotFound() {
                     src={BarrensWallpaper}
                     width={1920}
                     height={1080}
-                    className='w-screen h-screen bg-repeat-round object-cover select-none fixed -z-20'
+                    className='w-full h-auto object-cover select-none fixed -z-20'
                     draggable={false}
                     alt='Background'
                     style=

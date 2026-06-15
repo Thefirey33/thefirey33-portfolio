@@ -7,7 +7,7 @@
 
 @layer components {
   .btn {
-    @apply select-none transition-all p-3 md:text-xl text-xs h-fit min-w-20 bg-black border-4 border-(--border-color) text-white hover:bg-(--border-color) active:bg-(--border-color) active:text-black hover:text-black cursor-pointer;
+    @apply select-none transition-all p-3 md:text-xl text-[15px] h-fit min-w-20 bg-black border-4 border-(--border-color) text-white hover:bg-(--border-color) active:bg-(--border-color) active:text-black hover:text-black cursor-pointer;
   }
 }
 

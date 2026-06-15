@@ -41,7 +41,7 @@ export default function RootLayout({
       className={`${websiteFont.className} h-full antialiased`}
     >
 
-      <body className="min-h-full flex flex-col vc-init">
+      <body className="min-h-full flex flex-col vc-init bg-black">
 
         {/** Vercel's Analytics and Speed Insight Components. Used because I need insights on this website. */}
 

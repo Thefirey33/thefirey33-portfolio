@@ -2,7 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 
-export const BackgroundComponent = ({ Background }: { Background: StaticImageData }) => {
+export const BackgroundComponent = ({ Background, className }: { Background: StaticImageData, className?: string }) => {
 
 
     return (
@@ -10,7 +10,7 @@ export const BackgroundComponent = ({ Background }: { Background: StaticImageDat
             <Image
                 src={Background}
                 alt="Background"
-                className="min-w-screen min-h-screen left-0 top-0 -z-20 fixed object-cover select-none"
+                className={`min-w-screen min-h-screen left-0 top-0 -z-20 fixed object-cover select-none ${className}`}
                 loading="eager"
                 style=
                 {
