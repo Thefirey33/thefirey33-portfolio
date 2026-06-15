@@ -1,0 +1,103 @@
+[
+  {
+    "identifier": "c",
+    "name": "C",
+    "learn_more": "https://www.c-language.org/"
+  },
+  {
+    "identifier": "cs",
+    "name": "C#",
+    "learn_more": "https://learn.microsoft.com/dotnet/csharp/"
+  },
+  {
+    "identifier": "cpp",
+    "name": "C++",
+    "learn_more": "https://isocpp.org/"
+  },
+  {
+    "identifier": "python",
+    "name": "Python",
+    "learn_more": "https://www.python.org/"
+  },
+  {
+    "identifier": "ts",
+    "name": "TypeScript",
+    "learn_more": "https://www.typescriptlang.org/"
+  },
+  {
+    "identifier": "java",
+    "name": "Java",
+    "learn_more": "https://www.java.com/tr/"
+  },
+  {
+    "identifier": "php",
+    "name": "PHP",
+    "learn_more": "https://www.php.net/"
+  },
+  {
+    "identifier": "js",
+    "name": "JavaScript",
+    "learn_more": "https://en.wikipedia.org/wiki/JavaScript"
+  },
+  {
+    "identifier": "gd",
+    "name": "GDScript",
+    "learn_more": "https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html"
+  },
+  {
+    "identifier": "lua",
+    "name": "Lua",
+    "learn_more": "https://www.lua.org/"
+  },
+  {
+    "identifier": "sql",
+    "name": "SQL",
+    "learn_more": "https://en.wikipedia.org/wiki/SQL"
+  },
+  {
+    "identifier": "react",
+    "name": "React JS",
+    "learn_more": "https://react.dev/"
+  },
+  {
+    "identifier": "svelte",
+    "name": "Svelte",
+    "learn_more": "https://svelte.dev/"
+  },
+  {
+    "identifier": "unity",
+    "name": "Unity",
+    "learn_more": "https://unity.com/"
+  },
+  {
+    "identifier": "godot",
+    "name": "Godot",
+    "learn_more": "https://godotengine.org/"
+  },
+  {
+    "identifier": "gamemaker",
+    "name": "GameMaker",
+    "learn_more": "https://gamemaker.io/en"
+  },
+  {
+    "identifier": "code_editors",
+    "name": "Any Code Editors"
+  },
+  {
+    "identifier": "build_systems",
+    "name": "Any Build Systems"
+  },
+  {
+    "identifier": "designing_software",
+    "name": "Any Design Software"
+  },
+  {
+    "identifier": "hypervizors",
+    "name": "VMware",
+    "learn_more": "https://www.vmware.com/"
+  },
+  {
+    "identifier": "operating_systems",
+    "name": "Linux and Windows"
+  }
+]

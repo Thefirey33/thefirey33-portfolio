@@ -22,9 +22,9 @@ export default function Home() {
                 {/** Timezone stuff. */}
                 <p className="text-white md:text-xl">turkish full-stack programmer, artist and game designer!</p>
                 <div className="border border-white p-5 text-white flex flex-col gap-3">
-                    <p className="lg:text-xl">My most important project is the TenTrillion Game Engine. This is probably my most ambitious project yet, so stay tuned! </p>
+                    <p className="lg:text-xl">My most important project is the TenTrillion Game Engine. An extremely optimized VULKAN, OPENGL, SOFTWARE game engine, that gives you everything you need. It&apos;s my most ambitious project yet...</p>
                     <Link href={"https://github.com/tentrillion-game-engine/tentrillion-game-engine"} className="btn group items-center w-fit m-auto animate-pulse text-center flex flex-row gap-4">
-                        <Image src={TenTrillionSquare} alt="TenTrillion Image" className="group-hover:border-white border-black p-[2] border transition" width={30} height={30} />
+                        <Image src={TenTrillionSquare} alt="TenTrillion Image" className="group-hover:border-white border-black p-[2] border-2 transition" width={30} height={30} />
                         Check it out!
                     </Link>
                 </div>

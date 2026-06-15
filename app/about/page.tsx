@@ -1,29 +1,21 @@
 import { BackgroundComponent } from "../assets/components/bg-component";
-import WorldMachineWallpaper from "../assets/img/wallpapers/worldMachine.png";
+import TowerWallpaper from "../assets/img/wallpapers/tower.png";
 import FireyPlushieImage from "../assets/img/other/frontPageImage.png";
 import Image from "next/image";
 import Link from "next/link";
+import TitlebarDisplay from "../assets/components/titlebar-display";
 
-
-function TitlebarDisplay({ children }: { children: React.ReactNode }) {
-    return (
-        <>
-            <h1 className="text-black bg-white lg:text-4xl text-2xl font-bold flex flex-row justify-center">{children}</h1>
-            <hr className="border border-white" />
-        </>
-    );
-}
 
 export default function AboutPage() {
     return (
         <>
-            <BackgroundComponent Background={WorldMachineWallpaper} />
+            <BackgroundComponent Background={TowerWallpaper} />
             <div className="bg-black lg:w-200 w-80 flex flex-col gap-2 min-h-20 p-5 border-4 border-(--border-color) m-auto text-center">
 
                 <TitlebarDisplay>About</TitlebarDisplay>
 
                 <span className="text-white lg:text-xl flex m-3 flex-col gap-4">
-                    <p>Hellooo!! I&apos;m a full-stack developer, artist and game designer from Izmir, Türkiye.</p>
+                    <p>Hellooo!! I&apos;m a full-stack developer, artist and game designer from Izmir, Türkiye. I&apos;ve been programming for most of my life and It&apos;s my goal to make software that benefits everyone!</p>
                     <p>Appeared in the world in the 24 of June, 2009!</p>
                 </span>
 

@@ -81,8 +81,8 @@ function TopBarLinks({ isMobileMode, setIsOpen, isOpen }: {
         <LinkButton href={"/about"} icon={AboutIcon}>About</LinkButton>
         <LinkButton href={"/socials"} icon={SocialsIcon}>Socials</LinkButton>
         <LinkButton href={"/coding"} icon={CodingIcon}>Programming/Projects</LinkButton>
-        <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
         <LinkButton href={"/art"} icon={ArtIcon}>Thefirey33 Art</LinkButton>
+        <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
         <LinkButton href={"/games"} icon={GamesIcon}>Games!</LinkButton>
     </>
 }

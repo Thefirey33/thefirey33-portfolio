@@ -51,6 +51,7 @@ export default function RootLayout({
         <NextTopLoader showSpinner={false} color="var(--border-color)" />
         <MobileProvider>
           <NavBar />
+
           {children}
         </MobileProvider>
 
