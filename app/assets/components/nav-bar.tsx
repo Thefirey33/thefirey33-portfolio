@@ -13,6 +13,7 @@ import AboutIcon from "../img/icon/about.png";
 import CodingIcon from "../img/icon/coding.png";
 import SocialsIcon from "../img/icon/socials.png";
 import ArtIcon from "../img/icon/art.png";
+import BdayIcon from "../img/icon/bday.png";
 import GamesIcon from "../img/icon/games.png";
 import LoreIcon from "../img/icon/lore.png";
 
@@ -81,9 +82,9 @@ function TopBarLinks({ isMobileMode, setIsOpen, isOpen }: {
     <LinkButton href={"/about"} icon={AboutIcon}>About</LinkButton>
     <LinkButton href={"/socials"} icon={SocialsIcon}>Socials</LinkButton>
     <LinkButton href={"/coding"} icon={CodingIcon}>Programming/Projects</LinkButton>
+    <LinkButton href={"/bday"} icon={BdayIcon} className="animate-pulse">Birthday Art</LinkButton>
     <LinkButton href={"/art"} icon={ArtIcon}>Thefirey33 Art</LinkButton>
     <LinkButton href={"/lore"} icon={LoreIcon}>Lore</LinkButton>
-    <LinkButton href={"/games"} icon={GamesIcon} enabled={false}>Games! (Soon)</LinkButton>
   </>
 }
 

@@ -1,6 +1,6 @@
 import path from "path";
 import fs from 'fs/promises';
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { FileTree } from "@/app/assets/helper";
 
 
@@ -37,8 +37,9 @@ async function getFileTree(dirPath: string, relativeRoot = ''): Promise<FileTree
     }
 }
 
-export async function GET() {
-    const publicDirPath = path.join(process.cwd(), `public/art`);
+export async function GET(request: NextRequest) {
+    const searchParameters = request.nextUrl.searchParams;
+    const publicDirPath = path.join(process.cwd(), `public/${searchParameters.get("imglink")}`);
 
     const fileTree = await getFileTree(publicDirPath);
 
