@@ -29,7 +29,7 @@ export default function LorePage() {
       <div className="xl:min-w-300 flex flex-col items-center w-80 text-white m-auto">
         <p className="text-xl flex xl:flex-row flex-col items-center gap-4 animate-pulse">
           This background is made by Niko_Solar. Please go support them!
-          <Link className="btn not-xl:w-full text-center" href={"https://nikosolar.straw.page/"}>Strawpage</Link>
+          <Link className="btn not-xl:w-full text-center" href={"https://nikos-silly-space.webflow.io/"}>Strawpage</Link>
           <Link className="btn not-xl:w-full text-center" href={"https://bsky.app/profile/nikosolar.bsky.social"}>BlueSky</Link>
         </p>
 
