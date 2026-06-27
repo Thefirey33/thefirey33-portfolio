@@ -25,6 +25,7 @@ export default function BirthdayPage() {
                 <section className="text-white xl:text-xl">
                     <p>Thanks to sudoker0 and karll0424 for gifting me DELTARUNE!</p>
                     <p>Also, thanks to sudoker0 for gifting me Rivals of Aether!</p>
+                    <p className="font-extrabold">Thanks to Mari for gifting TONS of games!!!</p>
                 </section>
 
 
